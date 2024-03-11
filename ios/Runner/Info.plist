@@ -45,5 +45,11 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>このアプリにQRコードを読み込むための写真を撮影する目的でカメラ機能をリクエストします。</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>このアプリにQRコードを読み込むための写真を撮影する目的でカメラ機能をリクエストします。</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>アプリ機能のプロフィールなどに表示・使用するための写真や動画を撮影する目的でリクエストします。</string>
 </dict>
 </plist>
