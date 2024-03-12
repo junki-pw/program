@@ -1,0 +1,259 @@
+{
+  "project_info": {
+    "project_number": "529828806112",
+    "firebase_url": "https://bbbake-6e6d3-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "bbbake-6e6d3",
+    "storage_bucket": "bbbake-6e6d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529828806112:android:18d9b5ec95d5b29bb63f85",
+        "android_client_info": {
+          "package_name": "com.aleers.chip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529828806112-dqem1i3690tdm46viomsf226lm587ahl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aleers.chip",
+            "certificate_hash": "55897891ad94ca70d18cb7d3fa33e26649a77a98"
+          }
+        },
+        {
+          "client_id": "529828806112-m65dc0v3ftuaj6h1jljep3qks8i7p0l4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aleers.chip",
+            "certificate_hash": "f4301244365bd43cc5516a6c74e785c5eefcb541"
+          }
+        },
+        {
+          "client_id": "529828806112-nc875ropou8kfqevj4e1q3c9l4otdjfu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aleers.chip",
+            "certificate_hash": "bcbe7a72e0aadf8a78ccff8e2290a1cde63614c8"
+          }
+        },
+        {
+          "client_id": "529828806112-uuas85u59ieqisfnfd043lhvdiomevru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aleers.chip",
+            "certificate_hash": "26efc92db55e68d8f8dddd5b018098e2528b52f1"
+          }
+        },
+        {
+          "client_id": "529828806112-7v4rkcc6245ir4h2otaprsk2ekaitd49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAas0G09XcdN904GpHjEuj47O1VmIMJcdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529828806112-7v4rkcc6245ir4h2otaprsk2ekaitd49.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "529828806112-1d6upcbo40chr1rc4380v5msdcsq7bcp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.couplecrash.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529828806112:android:82d30ab63460b136b63f85",
+        "android_client_info": {
+          "package_name": "com.aleers.shopweb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529828806112-7v4rkcc6245ir4h2otaprsk2ekaitd49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAas0G09XcdN904GpHjEuj47O1VmIMJcdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529828806112-7v4rkcc6245ir4h2otaprsk2ekaitd49.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "529828806112-1d6upcbo40chr1rc4380v5msdcsq7bcp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.couplecrash.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529828806112:android:1b9480f01822dd76b63f85",
+        "android_client_info": {
+          "package_name": "com.aleers.testtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529828806112-7v4rkcc6245ir4h2otaprsk2ekaitd49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAas0G09XcdN904GpHjEuj47O1VmIMJcdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529828806112-7v4rkcc6245ir4h2otaprsk2ekaitd49.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "529828806112-1d6upcbo40chr1rc4380v5msdcsq7bcp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.couplecrash.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529828806112:android:28674858462d84d7b63f85",
+        "android_client_info": {
+          "package_name": "com.bbbake.bakatte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529828806112-7v4rkcc6245ir4h2otaprsk2ekaitd49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAas0G09XcdN904GpHjEuj47O1VmIMJcdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529828806112-7v4rkcc6245ir4h2otaprsk2ekaitd49.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "529828806112-1d6upcbo40chr1rc4380v5msdcsq7bcp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.couplecrash.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529828806112:android:4790761f10786e7db63f85",
+        "android_client_info": {
+          "package_name": "com.couplecrash.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529828806112-7v4rkcc6245ir4h2otaprsk2ekaitd49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAas0G09XcdN904GpHjEuj47O1VmIMJcdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529828806112-7v4rkcc6245ir4h2otaprsk2ekaitd49.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "529828806112-1d6upcbo40chr1rc4380v5msdcsq7bcp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.couplecrash.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529828806112:android:fab3c82d32fdb882b63f85",
+        "android_client_info": {
+          "package_name": "com.uniqueappt.program"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529828806112-7v4rkcc6245ir4h2otaprsk2ekaitd49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAas0G09XcdN904GpHjEuj47O1VmIMJcdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529828806112-7v4rkcc6245ir4h2otaprsk2ekaitd49.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "529828806112-1d6upcbo40chr1rc4380v5msdcsq7bcp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.couplecrash.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

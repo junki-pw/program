@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>529828806112-ups1ipgnnierl963l2npdik3gi179agt.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.529828806112-ups1ipgnnierl963l2npdik3gi179agt</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>529828806112-dqem1i3690tdm46viomsf226lm587ahl.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyATtbXbAMCVfA3nkpBAnMXkTUHwF7X6Lzo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>529828806112</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.uniqueappt.program</string>
+	<key>PROJECT_ID</key>
+	<string>bbbake-6e6d3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bbbake-6e6d3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:529828806112:ios:7597658f9d47ab70b63f85</string>
+	<key>DATABASE_URL</key>
+	<string>https://bbbake-6e6d3-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>
