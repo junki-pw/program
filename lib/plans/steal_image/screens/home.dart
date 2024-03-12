@@ -4,7 +4,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:photo_manager/photo_manager.dart';
 import 'package:program/extensions/context.dart';
-import 'package:program/plans/steal_image/screens/images.dart';
+
+const Color baseColor = Color(0xFFCA98C3);
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -48,13 +49,9 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
-    final double imageWidth = size.width / 2;
+    const double imageWidth = 240;
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('ホーム'),
-      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -71,6 +68,16 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             const SizedBox(height: 24),
+            const Text(
+              '喧嘩もするけど\nいつも一緒にいてくれる君に\n伝えたい言葉があります',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: baseColor,
+                fontSize: 16,
+              ),
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 24),
             ElevatedButton(
               onPressed: () async {
                 _showDialog();
@@ -83,22 +90,27 @@ class _HomePageState extends State<HomePage> {
                 Navigator.pop(context);
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (_) => ImagesScreen(bytes: bytes)),
+                  MaterialPageRoute(
+                    builder: (_) => const _ResultScreen(),
+                    fullscreenDialog: true,
+                  ),
                 );
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color(0xFF805F95),
+                backgroundColor: baseColor,
                 foregroundColor: Colors.white,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(8),
+                ),
               ),
               child: const Text(
-                '画像データを盗む',
+                '彼氏からの言葉を受け取る',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 16,
                 ),
               ),
             ),
-            const SizedBox(height: 120),
           ],
         ),
       ),
@@ -131,5 +143,24 @@ class _HomePageState extends State<HomePage> {
                 ),
               ],
             ));
+  }
+}
+
+class _ResultScreen extends StatelessWidget {
+  const _ResultScreen();
+
+  @override
+  Widget build(BuildContext context) {
+    return const Scaffold(
+      body: Center(
+        child: Text(
+          '大好きだよ！！',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 16,
+          ),
+        ),
+      ),
+    );
   }
 }
