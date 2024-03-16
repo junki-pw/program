@@ -5,40 +5,53 @@ import 'package:program/extensions/context.dart';
 class ImagesScreen extends StatelessWidget {
   const ImagesScreen({
     super.key,
-    required this.bytes,
   });
-
-  final List<Uint8List> bytes;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('注意して下さい'),
+        title: const Text(
+          '浮気チェック',
+          style: TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+            fontSize: 18,
+          ),
+        ),
+        backgroundColor: Colors.black,
       ),
-      body: Column(
+      body: ListView(
+        padding: const EdgeInsets.only(top: 24),
         children: [
-          Container(
-            padding: const EdgeInsets.symmetric(vertical: 16),
-            alignment: Alignment.center,
-            child: const Text(
-              'あなたのスマホに入ってる画像データは\n全世界に公開されました',
+          Align(
+            child: Container(
+              height: 160,
+              width: 160,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(24),
+                image: const DecorationImage(
+                  image: AssetImage('assets/steal.png'),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+          ),
+          const Padding(
+            padding: EdgeInsets.symmetric(vertical: 16),
+            child: Text(
+              '彼女の画像データを\n一覧表示',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
+                fontSize: 18,
               ),
               textAlign: TextAlign.center,
             ),
           ),
-          Expanded(
-            child: ListView(
-              children: [
-                Wrap(
-                  children: [
-                    for (final byte in bytes) _ImageTile(byte),
-                  ],
-                ),
-              ],
-            ),
+          Wrap(
+            children: [
+              for (final byte in []) _ImageTile(byte),
+            ],
           ),
         ],
       ),
